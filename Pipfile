@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "~=4.0.4"
+django-ckeditor = "==6.2.0"
+Pillow = "==9.0.1"
+django-admin-interface = "*"
+django-cors-headers = "*"
+django-import-export = "*"
+easy-thumbnails = "*"
+django-compressor = "*"
+django-extensions = "*"
+django-redirects = "*"
+mysqlclient = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

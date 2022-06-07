@@ -1,0 +1,12 @@
+Django~=4.0.5
+django-ckeditor==6.2.0
+Pillow==9.0.1
+django-debug-toolbar
+django-admin-interface
+django-cors-headers
+django-import-export
+easy-thumbnails
+django-compressor
+django-extensions
+django-redirects
+mysqlclient

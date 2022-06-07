@@ -1,0 +1,22 @@
+{% extends "admin/base_site.html" %}
+
+{% block title %}List of books by publisher{% endblock %}
+
+{% block content %}
+{% load static %}
+<div>
+  <h1>CVS de proba</h1>
+  <h3>Descarge o cvs de proba premendo <a href="/media/sample.csv">aquí</a></h3>
+</div>
+<div>
+    <h1>Engada o arquivo csv para cargar os datos</h1>
+    <form action="" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="form-group">
+      <label for="fname">Arquivo CSV</label><br>
+      <input type="file" accept=".csv" name="csv" class><br>
+      </div>
+      <input type="submit" value="Submit">
+    </form> 
+</div>
+{% endblock %}
